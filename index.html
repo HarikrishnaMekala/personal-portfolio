@@ -656,10 +656,6 @@
 
 
 
-<!--
-  - #PORTFOLIO
--->
-
 <article class="portfolio" data-page="portfolio">
 
   <header>
@@ -687,19 +683,20 @@
         <button data-filter-btn>Applied AI</button>
       </li>
 
+      <li class="filter-item">
+        <button data-filter-btn>Full-Stack</button>
+      </li>
+
     </ul>
 
     <!-- Mobile select -->
     <div class="filter-select-box">
 
       <button class="filter-select" data-select>
-
         <div class="select-value" data-selecct-value>Select category</div>
-
         <div class="select-icon">
           <ion-icon name="chevron-down"></ion-icon>
         </div>
-
       </button>
 
       <ul class="select-list">
@@ -720,101 +717,116 @@
           <button data-select-item>Applied AI</button>
         </li>
 
+        <li class="select-item">
+          <button data-select-item>Full-Stack</button>
+        </li>
+
       </ul>
 
     </div>
 
-    <!-- Projects (ONLY THESE TWO) -->
+    <!-- Projects (NOW 5) -->
     <ul class="project-list">
 
       <!-- Project 1: ML Web Application -->
       <li class="project-item active" data-filter-item data-category="ml web application">
         <a href="#">
-
           <figure class="project-img">
             <div class="project-item-icon-box">
               <ion-icon name="eye-outline"></ion-icon>
             </div>
-
-            <!-- Keep/replace this image path as you wish -->
             <img src="./assets/images/law.jpg" alt="Legal Offense Prediction Chatbot" loading="lazy">
           </figure>
-
           <h3 class="project-title">Legal Offense Prediction Chatbot</h3>
           <p class="project-category">ML Web Application</p>
-
-          <!-- brief overview text kept inside the card (no modal/open) -->
-          <!-- brief overview text kept inside the card (no modal/open) -->
           <div class="project-meta" style="color: white;">
-            <p><strong>Timeline:</strong> Jul 2024 – Nov 2024|NITPY</p>
+            <p><strong>Timeline:</strong> Jul 2024 – Nov 2024 | NITPY</p>
             <p><strong>Tools:</strong> Python, TF-IDF, Flask, HTML</p>
-            <p>web app to classify offenses from legal documents and suggest punishments. TF-IDF features + Random Forest; added rule-based mapping for penalty recommendations.</p>
+            <p>Web app to classify offenses from legal documents and suggest punishments. TF-IDF features + Random Forest; added rule-based mapping for penalty recommendations.</p>
           </div>
-
-
         </a>
       </li>
 
       <!-- Project 2: Vision AI -->
       <li class="project-item active" data-filter-item data-category="vision ai">
         <a href="#">
-
           <figure class="project-img">
             <div class="project-item-icon-box">
               <ion-icon name="eye-outline"></ion-icon>
             </div>
-
-            <!-- Keep/replace this image path as you wish -->
             <img src="./assets/images/health.jpg" alt="AI-Powered Nutritional Analysis" loading="lazy">
           </figure>
-
           <h3 class="project-title">AI-Powered Nutritional Analysis</h3>
           <p class="project-category">Vision AI</p>
-
-          <!-- brief overview text kept inside the card (no modal/open) -->
-          <!-- brief overview text kept inside the card (no modal/open) -->
           <div class="project-meta" style="color: white;">
-            <p><strong>Timeline:</strong> Jan 2025 – Jul 2025|NITPY</p>
+            <p><strong>Timeline:</strong> Jan 2025 – Jul 2025 | NITPY</p>
             <p><strong>Tools:</strong> Python, OpenCV, WideResNet</p>
-            <p>pipeline to estimate BMI from silhouette images for livestock health monitoring. OpenCV segmentation + WideResNet-50-2 regression for accurate malnutrition detection on real-world datasets.</p>
+            <p>Pipeline to estimate BMI from silhouette images for livestock health monitoring. OpenCV segmentation + WideResNet-50-2 regression for accurate malnutrition detection on real-world datasets.</p>
           </div>
-          
-
-
+        </a>
+      </li>
+      
+            <!-- Project 3: Full-Stack (Food Ordering System) -->
+      <li class="project-item active" data-filter-item data-category="full-stack">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="C:\Users\harik\Downloads\personal-portfolio-\personal-portfolio\assets\images\FoodOrder.jpg" alt="Food Ordering System" loading="lazy">
+          </figure>
+          <h3 class="project-title">Food Ordering System</h3>
+          <p class="project-category">Full-Stack</p>
+          <div class="project-meta" style="color: white;">
+            <p><strong>Timeline:</strong> Jan 2025 – Jul 2025 | NITPY</p>
+            <p><strong>Tools:</strong> MongoDB, Express.js, Angular, Node.js</p>
+            <p>Built a full-stack food ordering platform enabling customers to browse menus, add items to cart, place orders, and track order status in real time.</p>
+            <p>Developed role-based admin dashboard with JWT authentication and RESTful APIs for secure integration.</p>
+          </div>
         </a>
       </li>
 
-      <!-- Project 3: Applied AI -->
+      <!-- Project 4: Applied AI -->
       <li class="project-item active" data-filter-item data-category="applied ai">
         <a href="#">
-
           <figure class="project-img">
             <div class="project-item-icon-box">
               <ion-icon name="eye-outline"></ion-icon>
             </div>
-
-            <!-- Keep/replace this image path as you wish -->
             <img src="./assets/images/data1.webp" alt="Data Processing & Model Evaluation Project" loading="lazy">
           </figure>
-
           <h3 class="project-title">Data Processing & Model Evaluation Project</h3>
           <p class="project-category">Applied AI</p>
-
-          <!-- brief overview text kept inside the card (no modal/open) -->
-          <!-- brief overview text kept inside the card (no modal/open) -->
           <div class="project-meta" style="color: white;">
-            <p><strong>Timeline:</strong> Dec 2025 – Jan 2025|Code Tech IT Solutions</p>
+            <p><strong>Timeline:</strong> Dec 2024 – Jan 2025 | Code Tech IT Solutions</p>
             <p><strong>Tools:</strong> Python, Pandas, NumPy, scikit-learn, Matplotlib</p>
-            <p>Task 1 – Data Processing: Cleaned, transformed, and prepared raw datasets to ensure quality and suitability for AI model training.</p>
-            <p>Task 2 – Model Evaluation & Comparison: Implemented and compared multiple AI models using appropriate evaluation metrics to determine their effectiveness for problem-solving.</p>
+            <p>Task 1 – Data Processing: Cleaned, transformed, and prepared raw datasets for AI training.</p>
+            <p>Task 2 – Model Evaluation: Compared multiple AI models using evaluation metrics to determine best fit.</p>
           </div>
-          
-
-
         </a>
       </li>
 
       
+
+      <!-- Project 5: Full-Stack (LLM-Powered Job Portal) -->
+      <li class="project-item active" data-filter-item data-category="full-stack">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="C:\Users\harik\Downloads\personal-portfolio-\personal-portfolio\assets\images\Jobsearch.jpg" alt="LLM-Powered Job Portal" loading="lazy">
+          </figure>
+          <h3 class="project-title">LLM-Powered Job Portal</h3>
+          <p class="project-category">Full-Stack</p>
+          <div class="project-meta" style="color: white;">
+            <p><strong>Timeline:</strong> Jan 2025 – Jul 2025 | NITPY</p>
+            <p><strong>Tools:</strong> MongoDB, Express.js, Angular, Node.js</p>
+            <p>Developed a full-stack job portal where users upload resumes, browse/search jobs, and receive AI-powered job recommendations with match scores.</p>
+            <p>Integrated LLM-based skill extraction & matching APIs to compare resumes with job descriptions and show fit percentages.</p>
+          </div>
+        </a>
+      </li>
 
     </ul>
 
@@ -853,7 +865,7 @@
 										<li><strong>Core Concepts:</strong> Data Structures & Algorithms, System Design Basics, Distributed Systems Fundamentals, Version Control, Team Collaboration</li>
 										<li><strong>Development Tools:</strong> Git/GitHub(Basics), VS Code, Google Colab, Jupyter Notebook</li>
 										<li><strong>AI/ML Tools:</strong> TF-IDF, OpenCV, WideResNet, scikit-learn</li>
-                    <li><strong>Full‑Stack Engineering:</strong> JavaScript, HTML, React, Flask, MongoDB (NoSQL)</li>
+                    <li><strong>Full‑Stack Engineering:</strong> JavaScript , HTML5, CSS3, React.js, Angular, Node.js, Express.js, Flask, MongoDB (NoSQL), RESTful APIs, JWT Authentication</li>
 									  <li><strong>Coursework:</strong>Network Security, Wireless Networks, Cybersecurity, Blockchain</li>
                   </ul>
 								</div>
